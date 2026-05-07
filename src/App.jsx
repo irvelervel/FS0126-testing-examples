@@ -1,6 +1,7 @@
 import { Col, Container, Row } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import HiddenSection from './components/HiddenSection'
+import PostList from './components/PostList'
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       </Row>
       <Row className="mt-3 justify-content-center">
         <Col className="text-center" xs={12} md={6}>
-          <HiddenSection />
+          {/* <HiddenSection /> */}
+          <PostList />
         </Col>
       </Row>
     </Container>
